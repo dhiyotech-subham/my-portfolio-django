@@ -1,0 +1,8 @@
+pip install virtualenv                      : To install virtualenv package
+python -m venv .venv                        : To create a virtual environment, named as (.venv)
+.venv\Scripts\activate.bat                  : To activate virtual environment
+pip install django                          : To install Django
+django-admin startproject my_portfolio      : To create django project, named as (my_portfolio)
+python manage.py runserver                  : To start django runserver, after navigating to the project directory (cd my_portfolio)
+
+python manage.py migrate                    : To migrate unapplied migration
